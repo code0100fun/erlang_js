@@ -27,7 +27,7 @@
 %% dependencies. Intended for use with the Erlang VM's
 %% -s option
 start() ->
-    start_deps([sasl]),
+    start_deps([]),
     application:start(erlang_js).
 
 %% @private
